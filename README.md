@@ -166,7 +166,7 @@ See [How the Scanner Works](docs/scanner-explainer.md) for the full technical br
 ### Setup
 
 ```bash
-git clone https://github.com/yourusername/DualEdge.git
+git clone https://github.com/spalit2025/DualEdge.git
 cd DualEdge
 pip install -r requirements.txt
 
@@ -240,11 +240,14 @@ DualEdge/
 │   ├── NVDA/                  # Risk-neutral + risk-averse
 │   ├── TSLA/                  # Split decision example
 │   └── .../
+├── samples/                   # Curated showcase analyses
 ├── docs/
 │   ├── investment-techniques-guide.md  # Deep dive into all 12 frameworks
 │   └── scanner-explainer.md            # Technical breakdown of the scanner
 ├── templates/                 # Report output templates
+├── tests/                     # 52 unit tests (indicators + portfolio)
 ├── PRD.md                     # Full product requirements
+├── ROADMAP.md                 # Vision and content pipeline
 ├── watchlist.json.example     # Sample watchlist configuration
 └── requirements.txt           # Python dependencies (4 packages)
 ```
@@ -253,9 +256,11 @@ DualEdge/
 
 ## Documentation
 
+- **[Sample Analyses](samples/)** -- Curated showcase: consensus SELL, split decision BUY, and a full debate log
 - **[Product Requirements (PRD.md)](PRD.md)** -- Full specification including agent prompts, framework definitions, debate protocol, and token budget
 - **[Investment Techniques Guide](docs/investment-techniques-guide.md)** -- Deep dive into every analytical framework and scanner trigger
 - **[Scanner Technical Breakdown](docs/scanner-explainer.md)** -- How the 18-trigger scanner works, step by step
+- **[Roadmap](ROADMAP.md)** -- Vision, content pipeline, and future development plans
 - **[V1.1 Addendum](dualedge-v1.1-addendum.md)** -- Watchlist monitor specification with all trigger formulas
 
 ---
