@@ -1,0 +1,34 @@
+{
+  "risk_profile": "risk-neutral",
+  "portfolio": {
+    "cash_balance": 10000.00,
+    "holdings": [
+      {"ticker": "AAPL", "shares": 50, "cost_basis_per_share": 185.00, "entry_date": "2024-06-15"},
+      {"ticker": "MSFT", "shares": 30, "cost_basis_per_share": 380.00, "entry_date": "2024-03-01"},
+      {"ticker": "GOOGL", "shares": 100, "cost_basis_per_share": 155.00, "entry_date": "2024-09-10"},
+      {"ticker": "NVDA", "shares": 25, "cost_basis_per_share": 120.00, "entry_date": "2024-01-15"},
+      {"ticker": "JPM", "shares": 40, "cost_basis_per_share": 195.00, "entry_date": "2024-07-20"}
+    ]
+  },
+  "watchlist": ["TSLA", "AMZN", "META", "NFLX", "TSM"],
+  "previous_analyses": {
+    "NVDA": {
+      "date": "2025-01-15",
+      "risk_profile": "risk-neutral",
+      "recommendation": "BUY",
+      "confidence": 7,
+      "decision_type": "Consensus",
+      "change_conditions": [
+        {"type": "price_below", "description": "Price drops below $110 (growth thesis broken)", "threshold": 110.00},
+        {"type": "rsi_above", "description": "RSI exceeds 80 signaling extreme overbought", "threshold": 80}
+      ]
+    }
+  },
+  "scanner_config": {
+    "lookback_daily_months": 18,
+    "lookback_weekly_years": 3,
+    "volume_spike_multiplier": 2.0,
+    "max_concurrent_api_calls": 5,
+    "api_delay_seconds": 0.5
+  }
+}
