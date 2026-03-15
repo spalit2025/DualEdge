@@ -247,7 +247,6 @@ DualEdge/
 ├── templates/                 # Report output templates
 ├── tests/                     # 52 unit tests (indicators + portfolio)
 ├── PRD.md                     # Full product requirements
-├── ROADMAP.md                 # Vision and content pipeline
 ├── watchlist.json.example     # Sample watchlist configuration
 └── requirements.txt           # Python dependencies (4 packages)
 ```
@@ -260,7 +259,6 @@ DualEdge/
 - **[Product Requirements (PRD.md)](PRD.md)** -- Full specification including agent prompts, framework definitions, debate protocol, and token budget
 - **[Investment Techniques Guide](docs/investment-techniques-guide.md)** -- Deep dive into every analytical framework and scanner trigger
 - **[Scanner Technical Breakdown](docs/scanner-explainer.md)** -- How the 18-trigger scanner works, step by step
-- **[Roadmap](ROADMAP.md)** -- Vision, content pipeline, and future development plans
 - **[V1.1 Addendum](dualedge-v1.1-addendum.md)** -- Watchlist monitor specification with all trigger formulas
 
 ---
