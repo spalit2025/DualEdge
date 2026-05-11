@@ -211,8 +211,8 @@ The lead agent reads prompts from `src/prompts/`, spawns two analyst teammates, 
 
 See the `analysis/` directory for complete reports:
 
-- **[NVDA Risk-Neutral](analysis/NVDA/final_report_rn.md)** -- Consensus BUY 6/10. PEG favorable, wide moat, but technical signals ambiguous.
-- **[NVDA Risk-Averse](analysis/NVDA/final_report.md)** -- Consensus SELL 7/10. Same stock, opposite recommendation. Zero margin of safety at 46x P/E.
+- **[NVDA Risk-Neutral](analysis/NVDA/risk-neutral/final_report.md)** -- Consensus BUY 6/10. PEG favorable, wide moat, but technical signals ambiguous.
+- **[NVDA Risk-Averse](analysis/NVDA/risk-averse/final_report.md)** -- Consensus SELL 7/10. Same stock, opposite recommendation. Zero margin of safety at 46x P/E.
 - **[AAPL](analysis/AAPL/final_report.md)** -- Split Decision BUY 7/10. Full debate: Value says overpriced, Technical says trend is strong.
 - **[TSLA](analysis/TSLA/final_report.md)** -- Split Decision SELL 7/10. 401x P/E, -47% net income. Stage upgrade insufficient.
 
