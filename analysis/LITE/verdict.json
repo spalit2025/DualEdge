@@ -1,0 +1,46 @@
+{
+  "ticker": "LITE",
+  "company": "Lumentum Holdings",
+  "date": "2026-05-10",
+  "risk_profile": "risk-neutral",
+  "recommendation": "SELL",
+  "confidence": 6,
+  "decision_type": "Consensus (post-debate; Technical Analyst revised BUY 5/10 -> SELL 4/10, Value Analyst held SELL 7/10)",
+  "action": "do-not-own / avoid initiating; trim if long",
+  "key_driver": "Price (~$903) is structurally disconnected from intrinsic value: Earnings Power Value ~$4.7B vs $70.3B market cap (~-93% margin of safety); fwd P/E 50, P/B 76, EV/EBITDA 128 embed ~30-35% FCF CAGR for a decade the company can self-fund at only ~9%; 11 insider sales / 0 buys / ~$42M over 6 months; chart is +126% above the 200-day MA (~5x the risk-neutral extension flag).",
+  "best_ideas_ref": "analysis/ai_supercycle_2026-05-08/AI_Supercycle_Best_Ideas_2026-05-08.md",
+  "best_ideas_conviction": "5/5 (BUY $12,000)",
+  "disagrees_with_screen": true,
+  "spot_at_analysis": 903.43,
+  "analyst_mean_target": 1081.0,
+  "change_conditions": [
+    {"type": "price_below", "threshold": 550, "meaning": "flip_to_buy",
+     "description": "Re-rates below ~$550 (fwd P/E <30) — restores a margin of safety"},
+    {"type": "manual", "meaning": "flip_to_buy",
+     "description": "Two consecutive quarters of >35% organic Cloud/Networking revenue growth at >42% gross margin with FCF conversion >50% of net income (currently ~26%: TTM FCF ~$114M vs NI ~$440M; capex $338M > op income $251M)"},
+    {"type": "manual", "meaning": "flip_to_buy",
+     "description": "A cluster of insider open-market purchases above ~$700 (caught automatically by the D3 insider trigger)"},
+    {"type": "weekly_close_below", "threshold": 508, "meaning": "strengthen_sell",
+     "description": "Weekly close below the 30-week MA (~$508) — Stage 2 -> Stage 3/4 transition"},
+    {"type": "rs_breakdown", "threshold": 1.0, "timeframes": ["3m"], "meaning": "strengthen_sell",
+     "description": "3-month RS vs SPX falls below 1.00 (1m RS already negative vs SPX/XLK/SOXX)"},
+    {"type": "rsi_above", "threshold": 70, "meaning": "strengthen_sell",
+     "description": "RSI(14) >70 — watch for a subsequent bearish lower high (blow-off completion)"},
+    {"type": "obv_divergence", "direction": "bearish", "meaning": "strengthen_sell",
+     "description": "OBV rolls from flat to falling while volume ratio stays <1.0 — active distribution confirmed"}
+  ],
+  "agreements": [
+    "The valuation is the problem, not the business — both analysts accept the Q3 FY26 +90% YoY revenue / 44% GM operating turnaround as real.",
+    "The stock is dangerously extended: -93% margin of safety vs EPV (value) AND +126% above the 200-day MA (technical) — two methodologies, same conclusion.",
+    "Insider behavior is a clean bearish tell: 11 sales / 0 buys / ~$42M over 6 months; the technician confirms this is the seller behind the sub-1.0 volume ratio.",
+    "Short-term internals deteriorating: 1m RS now negative vs SPX, XLK and SOXX.",
+    "Do not own this here; for anyone long, trim into strength with the stop levels in the change conditions."
+  ],
+  "exit_triggers_if_long": ["weekly close below 50-day MA (~$788)", "weekly close below 30-week MA (~$508)", "3-month RS vs SPX < 1.00"],
+  "files": {
+    "final_report": "analysis/LITE/final_report.md",
+    "fundamental_analysis": "analysis/LITE/fundamental_analysis.md",
+    "technical_analysis": "analysis/LITE/technical_analysis.md",
+    "debate_log": "analysis/LITE/debate_log.md"
+  }
+}

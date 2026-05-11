@@ -21,6 +21,7 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+.obsidian/
 
 # Project-specific
 CLAUDE.md
@@ -28,3 +29,9 @@ ROADMAP.md
 watchlist.json
 scans/
 .claude/
+
+# Local portfolio-loop wiring (lives in this checkout; references ../portfolio/*)
+build_watchlist.py
+run_daily.sh
+RUN_MANUALLY.md
+com.sandippalit.investloop.plist
